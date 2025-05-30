@@ -13,7 +13,7 @@ class Volume3DViewer(QGLWidget):
         super(Volume3DViewer, self).__init__(parent)
         self.volume = volume
         self.mask = mask
-        self.skip = 1  # Finer rendering
+        self.skip = 2  # Finer rendering
         self.angle_x = 0
         self.angle_y = 0
         self.last_pos = None
